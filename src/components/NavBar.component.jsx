@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { SocialIcon } from 'react-social-icons';
+import { SocialIcon } from "react-social-icons";
 
 export default function NavBar() {
   return (
@@ -49,7 +49,7 @@ export default function NavBar() {
                 Projects
               </NavLink>
               <NavLink
-                to="/posts"
+                to="/blog"
                 className={({ isActive }) =>
                   isActive
                     ? "text-white font-bold"
@@ -61,7 +61,7 @@ export default function NavBar() {
             </div>
           </div>
           <div className="ml-10 space-x-4">
-          <SocialIcon
+            <SocialIcon
               url="#"
               network="facebook"
               className="hover:opacity-75"
@@ -78,7 +78,7 @@ export default function NavBar() {
               style={{ height: 35, width: 35 }}
             />
 
-<SocialIcon
+            <SocialIcon
               url="#"
               network="twitter"
               className="hover:opacity-75"
